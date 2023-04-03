@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body::before{
+    content: '';
+    background-image:  url(./resturentwallpaper.png);
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:40px 70px;
+
+}
+ ul{
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+    font-size: 25px;
+    margin-right:200px;
+   cursor: pointer;
+   color: hsl(60, 99%, 50%);
+}
+
+ul li{
+    list-style: none;
+
+}
+button{
+   font-size: 15px;
+   padding: 8px 25px;
+   border-radius: 2px;
+   border: none;
+   background-color: #e6084e;
+   color: #fff;
+   font-weight: 600;
+}
+button:hover{
+    border: 2px solid red;
+    background-color: #fff;
+    color: red;
+}
+.butn
+{
+    font-size: 20px;
+    margin-left: 45% ;
+    margin-top: 50px;
+}
+main{
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    
+}
+ h1{
+    font-size: 95px;
+    text-align: center;
+    color: rgba(242, 195, 8, 0.783);
+    width: 55%;
+    font-weight: 600;
+    margin-left: 25%;
+   margin-top:50px;
+   line-height: 100px;
+}
+footer img{
+    position: absolute;
+    top:80%;
+    left: 90%;
+    width: 120px;
+}
+
